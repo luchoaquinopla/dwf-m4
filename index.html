@@ -4,134 +4,80 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./components/ventana.css" />
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./components/ventana.js"></script>
+    <script defer src="./pages/index.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    <section class="bienvenidos-sec">
-      <div class="imagenes">
-        <img class="logo" src="logo-personal.png" />
-        <div class="menu">
-          <div class="rectangulo-1"></div>
-          <div class="rectangulo-2"></div>
-          <div class="rectangulo-3"></div>
-          <div class="nav-buttons">
-            <h1 class="quien-soy">quien soy</h1>
-            <h1 class="servicios">servicios</h1>
-            <h1 class="escribime">escribime</h1>
-          </div>
-        </div>
-      </div>
-      <div class="bienvenida-container">
-        <div class="bienvenida-title-container">
-          <h1 class="bienvenidos-tittle">Bienvenidxs a mi site</h1>
-        </div>
-        <div class="foto-container">
-          <img class="foto" src="messi.png" />
-        </div>
+    <div class="ventana-container"></div>
+    <div class="header"></div>
+    <section class="bienvenida">
+      <h1 class="bienvenida__title"></h1>
+      <div class="bievenida__img__container">
+        <img src="" alt="" class="bienvenida__img" />
       </div>
     </section>
-    <section class="info-sec">
-      <div class="info-container">
-        <div class="info-texto">
-          <div class="info-tittle">
-            <h1 class="soy-luciano">Soy Luciano</h1>
-          </div>
-          <div class="text-container">
-            <p class="info-text">
-              Soy desarrollador frontend con formación en Ingeniería en Sistemas
-              de Información y título de Analista en Sistemas. Actualmente soy
-              estudiante avanzado de Ingeniería. Me encuentro en un proceso
-              constante de aprendizaje, con el objetivo de convertirme en
-              desarrollador full stack y seguir ampliando mis capacidades
-              técnicas. Me inicié en el mundo del desarrollo con un fuerte
-              interés por el diseño de interfaces y la experiencia de usuario.
-            </p>
-          </div>
-        </div>
-        <div class="info-logo">
-          <img class="logo-info" src="servicios-digitales.png" />
-        </div>
+    <section class="presentacion">
+      <div class="presentacion__Contenido">
+        <h1 class="presentacion__title"></h1>
+        <p class="presentacion__texto"></p>
+      </div>
+      <div class="presentacion__img__container">
+        <img src="" alt="" class="presentacion__img" />
       </div>
     </section>
-    <section class="service-sec">
-      <div class="service-tittle-container">
-        <h1 class="service-tittle">Mis servicios</h1>
-      </div>
-      <div class="service-cards-row">
-        <div class="services-cards-1">
-          <img class="service-logo" src="computer-icon.png" />
-          <h2 class="service-subtittle">Desarrollador Front-end</h2>
-          <p class="service-text">
-            Como desarrollador frontend junior, me especializo en crear
-            interfaces modernas, adaptables y funcionales. Transformo diseños en
-            experiencias web intuitivas, asegurando que cada detalle sea
-            atractivo y fácil de usar en cualquier dispositivo.
-          </p>
+    <section class="Servicios">
+      <h1 class="servicios__title"></h1>
+      <div class="servicios__card__container">
+        <div class="servicios__card">
+          <div class="servicios_card_img_c">
+            <img src="" alt="" class="servicios__img" />
+          </div>
+          <h1 class="servicios__card__title"></h1>
+          <p class="servicios__card__text"></p>
         </div>
-        <div class="services-cards-2">
-          <img class="service-logo" src="computer-icon.png" />
-          <h2 class="service-subtittle">Analista en sistemas</h2>
-          <p class="service-text">
-            Como analista en sistemas, ofrezco soluciones eficientes para
-            optimizar procesos, gestionar información y mejorar el rendimiento
-            tecnológico de empresas y proyectos. Me enfoco en analizar
-            necesidades, proponer mejoras y garantizar sistemas confiables y
-            adaptados a cada objetivo.
-          </p>
-        </div>
-        <div class="services-cards-3">
-          <img class="service-logo" src="computer-icon.png" />
-          <h2 class="service-subtittle">Desarrollador Front-end</h2>
-          <p class="service-text">
-            Como desarrollador frontend junior, me especializo en crear
-            interfaces modernas, adaptables y funcionales. Transformo diseños en
-            experiencias web intuitivas, asegurando que cada detalle sea
-            atractivo y fácil de usar en cualquier dispositivo.
+        <div class="servicios__card">
+          <div class="servicios_card_img_c">
+            <img src="" alt="" class="servicios__img" />
+          </div>
+          <h1 class="servicios__card__title">Developer</h1>
+          <p class="servicios__card__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quod
+            atque neque placeat fugiat provident sapiente reprehenderit pariatur
+            illo deserunt quia maxime dolores dolorum odio alias amet sunt, hic
+            in!
           </p>
         </div>
       </div>
     </section>
-
-    <section class="contact-sec">
-      <div class="contact-title-container">
-        <h1 class="contact-title">Escribime</h1>
-      </div>
-      <form class="form-container">
-        <label class="label" for="Nombre">NOMBRE:</label><br />
-        <input class="input" type="text" id="Nombre" name="Nombre" /><br />
-        <label class="label" for="Nombre">EMAIL:</label><br />
-        <input class="input" type="text" id="Nombre" name="Nombre" /><br />
-        <label class="label" for="mensaje">Mensaje:</label><br />
-        <textarea
-          class="text-area"
-          id="mensaje"
-          name="mensaje"
-          rows="5"
-          required
-        ></textarea
-        ><br /><br />
-
-        <button class="submit-button" type="submit">Enviar</button>
-      </form>
-    </section>
-    <section class="footer-sec">
-      <div class="logo-container">
-        <img class="logo-footer" src="logo-personal.png" />
-      </div>
-      <div class="redes-sociales">
-        <div class="red-social">
-          <img class="instagram" src="instagram.png" />
-          <span>Instagram</span>
-        </div>
-        <div class="red-social">
-          <img class="linkedin" src="linkedin.png" />
-          <span>LinkedIn</span>
-        </div>
-        <div class="red-social">
-          <img class="github" src="github.png" />
-          <span>GitHub</span>
-        </div>
+    <section class="contacto">
+      <h1 class="contacto__title">Escribime</h1>
+      <div class="contacto__form__container">
+        <form action="" class="form">
+          <label for="" class="label">Nombre</label>
+          <input type="text" class="input" />
+          <label for="" class="label">Email</label>
+          <input id="email" type="text" class="input" />
+          <label for="" class="label">Mensaje</label>
+          <textarea
+            name=""
+            id="message"
+            class="contacto__text__area"
+          ></textarea>
+          <button class="contacto__submit__button">Enviar</button>
+        </form>
       </div>
     </section>
+    <div class="footer"></div>
   </body>
 </html>
